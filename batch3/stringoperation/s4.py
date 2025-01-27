@@ -14,5 +14,11 @@ print(text2.strip())
 
 text3="hello,#world"
 print("-------split-----")
-print(text3.split(","))
-print(text3.split("#"))
+text3=text3.split(",")
+print(text3)
+text3=text3[0]+text3[1]
+print(text3)
+text3=text3.split("#")
+print(text3)
+
+

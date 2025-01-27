@@ -1,33 +1,32 @@
 #INSERT INTO `result` (`id`, `name`, `dob`, `tamil`, `computer`, `maths`) VALUES ('1', 'foo', '1-2-2000', '75', '85', '65');
 
-import mysql.connector
-from tabulate import tabulate
+import model.result
 
-host="localhost"
-username="root"
-password=""
-db="student"
+while True:
+    print("--------Welcome to Exam Result App-----------")
+    print("Press 1 to Student Login\nPress 2 to Admin login\nPress 0 to Exit")
+    login=int(input("Enter your choice"))
+    if(login==1):
+        print("--------Student login success------")
+        while True:
+            print("Press 1 to view result\nPress 2 to Exit ")
+            action=int(input("Enter your choice"))
+            if(action==1):
+                id=int(input("Enter your ID: "))
+                # dob=str(input("Enter your DOB: "))
+                model.result.getresult(id)
+            elif(action==2):
+                print("Exiting Student.....")
+                break
+            else:
+                print("Invaild choice")
+    elif(login==0):
+        print("Exiting...")
+        break
+    else:
+        print("invaild choice")
 
 
-con=mysql.connector.connect(host=host,user=username,password=password,database=db)
-if(con):
-    print("connected")
-else:
-    print("not connected")
-
-cursor=con.cursor()
-query="SELECT * FROM result"
-cursor.execute(query)
-row=cursor.fetchall()
-# Column headers
-headers = ["id", "name", "dob","tamil","computer","maths"]
-data=[]
 
 
-for result in range(len(row)):
-    getdata=row[result]
-    data.append(getdata)
-table=tabulate(data,headers,tablefmt="grid")
-print(table)
-con.commit()
-con.close()
+
