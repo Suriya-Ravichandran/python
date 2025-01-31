@@ -1,4 +1,4 @@
-def signin(email,password):
+def signin(email,password="1234"):
     if(password=="1234"):
         demail=email
         dpassword=password
@@ -8,9 +8,9 @@ def signin(email,password):
 
 
 email=str(input("Enter your Email: "))
-password=str(input("Enter your password: "))
+# password=str(input("Enter your password: "))
 
-verify=signin(email,password)
+verify=signin(email)
 print(verify)
 
 if(verify==1):
