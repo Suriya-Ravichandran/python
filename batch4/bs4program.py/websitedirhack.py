@@ -48,5 +48,5 @@ def find_directories(url):
         print(f"Error: {e}")
 
 # Example usage: replace with the URL of the website you want to check
-website_url = 'http://www.w3schools.com'
+website_url = 'https://www.gocourse.in/2022/10/introduction-in-python.html'
 find_directories(website_url)

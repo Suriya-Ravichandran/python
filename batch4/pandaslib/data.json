@@ -1,0 +1,66 @@
+[
+    {
+      "student_id": "S1001",
+      "first_name": "John",
+      "last_name": "Doe",
+      "age": 20,
+      "gender": "Male",
+      "major": "Computer Science",
+      "courses": [
+        {
+          "course_id": "CS101",
+          "course_name": "Introduction to Programming",
+          "grade": "A"
+        },
+        {
+          "course_id": "CS102",
+          "course_name": "Data Structures",
+          "grade": "B+"
+        }
+      ],
+      "gpa": 3.75
+    },
+    {
+      "student_id": "S1002",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "age": 22,
+      "gender": "Female",
+      "major": "Mathematics",
+      "courses": [
+        {
+          "course_id": "MATH101",
+          "course_name": "Calculus I",
+          "grade": "B"
+        },
+        {
+          "course_id": "MATH102",
+          "course_name": "Linear Algebra",
+          "grade": "A-"
+        }
+      ],
+      "gpa": 3.5
+    },
+    {
+      "student_id": "S1003",
+      "first_name": "Emily",
+      "last_name": "Brown",
+      "age": 19,
+      "gender": "Female",
+      "major": "Physics",
+      "courses": [
+        {
+          "course_id": "PHYS101",
+          "course_name": "General Physics I",
+          "grade": "A"
+        },
+        {
+          "course_id": "PHYS102",
+          "course_name": "Mechanics",
+          "grade": "A"
+        }
+      ],
+      "gpa": 4.0
+    }
+  ]
+  

@@ -1,16 +1,16 @@
-def signin(email,password="1234"):
-    if(password=="1234"):
-        demail=email
-        dpassword=password
+def signin(email,password):
+    if(email=="suriya@gmail.com" and password=="1234"):
+        # demail=email
+        # dpassword=password
         return 1
     else:
         return 0
 
 
 email=str(input("Enter your Email: "))
-# password=str(input("Enter your password: "))
+password=str(input("Enter your password: "))
 
-verify=signin(email)
+verify=signin(email,password)
 print(verify)
 
 if(verify==1):
