@@ -1,0 +1,5 @@
+pi=3.141592653589793
+year=31536000.0
+week=604800.0
+unit="<function unit at 0x1500083cb550>"
+liter=0.001
