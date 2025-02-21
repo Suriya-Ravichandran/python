@@ -11,7 +11,7 @@ while True:
         verifyPassword=settergetter.getpassword()
         if (Email==verifyEmail):
             if(Password==verifyPassword):
-                print(f"login success{settergetter.getname()}")
+                print(f"login success {settergetter.getname()}")
                 while True:
                     print("1 to view profile\n2 to Edit Profile\n0 to Logout")
                     choice1=int(input("Enter Your choice: "))
