@@ -1,3 +1,4 @@
 import subprocess
 
-subprocess.call("mkdir hello")
+# Correct way to call the command as a list
+subprocess.call(["touch", "hello.py"])
