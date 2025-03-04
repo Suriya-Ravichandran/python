@@ -1,0 +1,19 @@
+                            control statement
+                                    | branching statement - if, elif,else
+                                    | looping statement- while loop, for loop is also called for each loop
+                                    | jumping statement - break,continue,pass
+                                    | switch statement - not req
+
+intations - 4 tab spaces if your create any block means give a intations .
+
+how to define a block ? using : symbol
+
+if condition:
+    block of code
+    if condition:
+        block of code
+    elif condition:
+        block of code
+elif condition:
+    block of code 
+
