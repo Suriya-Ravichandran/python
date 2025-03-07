@@ -17,5 +17,6 @@ s1=Student("foo",18)
 
 # s1.setdata()
 
+s1.printdata()
 print(s1.sname)
 print(s1.sage)
