@@ -1,0 +1,17 @@
+python datastucture
+
+        Stack ,Queue
+
+data types
+|
+numeric - int,float, complex
+|
+boolean
+|
+dictnary
+|
+set
+|
+sequenece
+|
+list ,string , tuples
