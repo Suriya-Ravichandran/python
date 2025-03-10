@@ -1,0 +1,17 @@
+rmdir -remove dir
+
+mkdir -make a dir
+
+touch - create a file 
+
+nano - cl text editor or using to create a file and edit a file
+
+rm -rf - super command to remove dir and respative file
+
+rm - remove file
+
+cp -copy file
+
+mv - it also a super command  move file or rename
+
+cat - open a file 
