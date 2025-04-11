@@ -1,3 +1,3 @@
 import os
 
-os.remove("demo.txt")
+os.remove("hello2.txt")
