@@ -25,14 +25,14 @@ basket_width = 100
 basket_height = 20
 basket_x = (SCREEN_WIDTH - basket_width) // 2
 basket_y = SCREEN_HEIGHT - basket_height - 10
-basket_speed = 10
+basket_speed = 15
 
 # Falling object properties
 object_width = 30
 object_height = 30
 object_x = random.randint(0, SCREEN_WIDTH - object_width)
 object_y = 0
-object_speed = 6
+object_speed = 16
 
 # Score
 score = 0
