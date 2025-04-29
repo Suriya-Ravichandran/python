@@ -1,0 +1,17 @@
+class bike():
+    def duke(self):
+        print("Ready to race")
+
+class person(bike):
+    def scooter(self):
+        print("Going only shops")
+
+class child(person,bike):
+    pass
+class child2(child,person,bike):
+    pass
+
+
+ch2=child2()
+ch2.duke()
+ch2.scooter()
