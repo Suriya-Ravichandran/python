@@ -1,0 +1,5 @@
+filename=str(input("Enter file Name: "))
+content=str(input("Enter your file content: "))
+f=open(file=filename,mode="a")
+f.write("\n"+content)
+print("File write Successfully !!")
