@@ -1,0 +1,8 @@
+name=str(input("Enter your name: "))
+print("Hello",name)
+age=int(input("Enter your age: "))
+print("Age:",age)
+mark=float(input("Enter your mark: "))
+print("Mark:",mark)
+boolean=bool(input("Enter boolean value either True or False: "))
+print(boolean)
