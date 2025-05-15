@@ -32,7 +32,7 @@ object_width = 30
 object_height = 30
 object_x = random.randint(0, SCREEN_WIDTH - object_width)
 object_y = 0
-object_speed = 5
+object_speed = 7
 
 # Score
 score = 0
