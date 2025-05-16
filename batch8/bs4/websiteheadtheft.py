@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 # URL of the webpage to scrape
-url = "https://www.livewireindia.in"
+url = "https://erp.kgkjetindia.com"
 
 # Fetch the content of the webpage
 response = requests.get(url)
@@ -16,7 +16,7 @@ if response.status_code == 200:
     links = soup.find_all('a')
 
     head=soup.find("html")
-    f=open("livewirehead.html","w")
+    f=open("clone.html","w")
     f.write(str(head))
 
     print("List of Hyperlinks:")
