@@ -16,4 +16,4 @@ radio=Radiobutton(window,text="Female",value="Female",variable=gender_var).place
 btn=Button(window,height=1,width=15,text="click me",background="blue",fg="white",command=clickme).place(x=150,y=150)
 
 
-window.mainloop() 
+window.mainloop()
