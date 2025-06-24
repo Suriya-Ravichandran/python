@@ -7,4 +7,4 @@ data={
 
 df=pd.DataFrame(data)
 
-print(df.info())
+print(df)

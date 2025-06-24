@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 # URL of the webpage to scrape
-url = "https://www.livewireindia.in"
+url = "https://gocosys.com"
 
 # Fetch the content of the webpage
 response = requests.get(url)
