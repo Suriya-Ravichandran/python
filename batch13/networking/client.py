@@ -1,6 +1,6 @@
 import socket
 
-host="localhost"
+host="192.168.1.8"
 port=1234
 
 client=socket.socket()

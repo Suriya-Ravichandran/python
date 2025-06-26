@@ -10,11 +10,14 @@ def generate_md5_hash(input_string):
 def genratehash(password):
     saltkey="dahfdasggbrthrngdsafashdsdsssssssssshdsafhsdfh"
     password=password[0:4]
+    password=password[::-1]
+    print(password)
     password=saltkey+str(password)+saltkey
     password=password.replace("s","z")
     password=password.replace("b","y")
     password=password.replace("f","w")
     password=password.replace("@","#")
+    print(password)
     hash=generate_md5_hash(password)
     return hash
 
