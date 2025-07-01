@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 
 # Target URL
-url = "https://google.com"
+url = "https://thechennaishoppingmall.com/"
 
 # Directory to save the clone
 output_dir = "website_clone"
