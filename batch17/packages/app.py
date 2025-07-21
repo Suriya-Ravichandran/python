@@ -1,5 +1,4 @@
 from calcu import calculib
-
 while True:
     print("------Calculator App--------")
     print("1 to Add")
@@ -7,6 +6,7 @@ while True:
     print("3 to Mul")
     print("4 to Div")
     print("5 to Mod")
+    print("6 to Square")
     print("0 to Exit")
     choice = int(input("Enter your choice: "))
 
@@ -25,11 +25,19 @@ while True:
     elif choice==4:
         num1=int(input("Enter Num1: "))
         num2=int(input("Enter Num2: "))
-        print("Result:",calculib.div(num1,num2))
+        try:
+            result=calculib.div(num1,num2)
+            print("Result:",result)
+        except Exception as e:
+            print(e)
+        
     elif choice==5:
         num1=int(input("Enter Num1: "))
         num2=int(input("Enter Num2: "))
         print("Result:",calculib.mod(num1,num2))
+    elif choice==6:
+        num=int(input("Enter number to square: "))
+        print("Result:",calculib.square(num))
     elif choice==0:
         print("Exiting....")
         break
