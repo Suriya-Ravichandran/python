@@ -21,8 +21,11 @@ while True:
         result=calcu.mul()
         print(f"Result: {result}")
     elif choice==4:
-        result=calcu.div()
-        print(f"Result: {result}")
+        try:
+            result=calcu.div()
+            print(f"Result: {result}")
+        except Exception as e:
+            print(e)
     elif choice==5:
         result=square.getsquarenum()
         print(f"Result: {result}")

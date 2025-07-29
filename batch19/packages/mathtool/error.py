@@ -1,0 +1,2 @@
+class Suriyaerror(Exception):
+    pass
