@@ -1,10 +1,10 @@
 import mysql.connector
 
 host="localhost"
-user="root"
-password="root"
-dbname="batch21"
-port=3306
+user="suriya"
+password="suriya@098"
+dbname="mydb"
+port=3308
 
 try:
     conn=mysql.connector.connect(host=host,user=user,password=password,database=dbname,port=port)
